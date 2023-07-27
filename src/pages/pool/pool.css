@@ -1,0 +1,337 @@
+.card-wrapper {
+    border-radius: 12px;
+    border-width: 0px;
+    background: var(--bs-black);
+}
+
+.card-top {
+    text-align: center;
+    color: var(--bs-card-bg);
+}
+
+.single-image {
+    width: 54px;
+    height: 54px;
+    margin-left: 0px;
+}
+
+.pair-text {
+    text-align: right;
+    margin-top: -38px;
+}
+
+.dropdown-icon {
+    font-size: 29px;
+    color: var(--bs-card-bg);
+    cursor: pointer;
+}
+
+.apr-section {
+    background: rgba(17, 17, 17, 0);
+    border-radius: 9px;
+    color: var(--bs-card-bg);
+    height: 90px;
+}
+
+.apr-text {
+    text-align: left;
+    color: var(--bs-card-bg);
+    margin-top: 0px;
+    border-radius: 6px;
+    font-family: Aldrich, sans-serif;
+}
+
+.earned-section {
+    margin-top: 0px;
+    background: rgba(17, 17, 17, 0);
+    height: 90px;
+}
+
+.earned-text {
+    text-align: right;
+    color: var(--bs-card-bg);
+    margin-top: 0px;
+    font-family: Aldrich, sans-serif;
+    border-radius: 17px;
+}
+
+.liquidity-section {
+    text-align: center;
+    height: 90px;
+}
+
+.liquidity-text {
+    text-align: left;
+    color: var(--bs-card-bg);
+    height: 78.1875px;
+    border-radius: 20px;
+    font-family: Aldrich, sans-serif;
+}
+
+.ends-date-text {
+    text-align: right;
+    color: var(--bs-card-bg);
+    height: 78.1875px;
+    border-radius: 19px;
+    font-family: Aldrich, sans-serif;
+}
+
+.deposit-text {
+    text-align: left;
+    color: var(--bs-card-bg);
+    border-radius: 20px;
+    font-family: Aldrich, sans-serif;
+}
+
+.withdrawal-text {
+    text-align: right;
+    color: var(--bs-card-bg);
+    border-radius: 20px;
+    font-family: Aldrich, sans-serif;
+}
+
+.deposit-button {
+    border-width: 0px;
+    border-radius: 8px;
+    width: 248.016px;
+    background: #a32638;
+}
+
+.deposit-input {
+    border-width: 0px;
+    border-radius: 8px;
+    width: 248.016px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    /* background: #a32638; */
+}
+
+.admin-input {
+    border-width: 0px;
+    border-radius: 8px;
+    width: 248.016px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    /* background: #a32638; */
+}
+
+.harvest-button {
+    border-width: 0px;
+    border-radius: 8px;
+    width: 248.016px;
+    background: #a32638;
+}
+
+.harvest-label {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.lock-time-text {
+    color: white;
+    text-align: left;
+    font-family: Aldrich, sans-serif;
+}
+
+.min-stake-text {
+    color: var(--bs-card-bg);
+    text-align: right;
+    font-family: Aldrich, sans-serif;
+}
+
+.red-title {
+    color: #a32638;
+}
+
+.info-button {
+    border-width: 0px;
+    border-radius: 12px;
+    background: linear-gradient(176deg, black, rgba(255, 255, 255, 0.09) 80%);
+    font-family: Aldrich, sans-serif;
+}
+
+.info-item-background {
+    width: 235px;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 30px;
+    border-width: 0px;
+}
+
+.card-dropdown-section {
+    text-align: center;
+    height: 49.5938px;
+    margin-top: 19px;
+}
+
+.menu-item-strict {
+    color: var(--bs-card-bg);
+    text-align: center;
+}
+
+.border-radius-20 {
+    border-radius: 20px;
+}
+
+.border-radius-17 {
+    border-radius: 17px;
+}
+
+.menu-item-icon {
+    margin-left: 2px;
+    color: var(--bs-danger);
+}
+
+.bottom-badge {
+    text-align: center;
+    height: 49.5938px;
+    margin-top: 19px;
+}
+
+.badge-span {
+    width: 73.2188px;
+    height: 23.375px;
+    border-radius: 36px;
+    margin-left: 0px;
+    margin-right: 4px;
+    background: linear-gradient(black, var(--bs-black)), var(--bs-black);
+    border: 1px solid var(--bs-red);
+}
+
+.badge-core {
+    color: var(--bs-red);
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+.badge-hot {
+    width: 73.2188px;
+    height: 23.375px;
+    border-radius: 49px;
+    background: linear-gradient(159deg, #ed1313, #f98972 52%, var(--bs-red) 96%), rgba(36, 40, 91, 0);
+}
+
+.display-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 24px;
+}
+
+.display-mode {
+    width: 100px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 24px;
+    margin: 0;
+    margin-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.display-mode-selected {
+    width: 100px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 24px;
+    margin: 0;
+    margin-left: 4px;
+    padding-top: 5px;
+    font-size: 23px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+@media screen and (max-width : 414px) {
+    .display-container {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+    }
+
+    .display-mode {
+        width: 50px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 0;
+        margin-right: 2px;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .display-mode-selected {
+        width: 50px;
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 0;
+        margin-left: 4px;
+        padding-top: 5px;
+        font-size: 12px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 968px) {
+    .display-container {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+    }
+
+    .display-mode {
+        width: 50px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 0;
+        margin-right: 2px;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .display-mode-selected {
+        width: 50px;
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 0;
+        margin-left: 4px;
+        padding-top: 5px;
+        font-size: 12px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}

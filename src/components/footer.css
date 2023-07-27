@@ -1,0 +1,15 @@
+.white-text {
+    color: var(--bs-white);
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}

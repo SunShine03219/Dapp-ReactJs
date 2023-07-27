@@ -1,0 +1,68 @@
+.navbar-menu-button {
+    background: var(--bs-red);
+    border-width: 0px;
+    border-radius: 11px;
+}
+
+.toggle-icon {
+    color: var(--bs-white);
+}
+
+.nav-search-form {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 19px;
+    color: var(--bs-white);
+}
+
+.color-white {
+    color: var(--bs-white);
+}
+
+.nav-bold {
+    font-weight: bold;
+}
+
+.search-input {
+    height: 33.5938px !important;
+    background: linear-gradient(119deg, var(--bs-black), rgba(255, 255, 255, 0.12)), rgba(255, 255, 255, 0) !important;
+    border-width: 0px !important;
+    border-radius: 16px !important;
+    color: var(--bs-white) !important;
+}
+
+.nav-create {
+    color: var(--bs-white);
+    font-weight: bold;
+}
+
+.color-dropdown {
+    color: var(--bs-dropdown-bg);
+}
+
+.bg-black {
+    background: var(--bs-black);
+}
+
+.wallet-connect {
+    border-radius: 14px;
+    border-width: 0px;
+    box-shadow: 5px 0px 6px rgb(235, 14, 14);
+    background: linear-gradient(135deg, #e41313 0%, #f98972 34%, #f9603a 69%, #ce1126 100%);
+}
+
+.nav-link {}
+
+.nav-link:hover {
+    color: #ce1126;
+}
+
+.nav-link:focus {
+    color: white;
+    font: bold;
+
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}

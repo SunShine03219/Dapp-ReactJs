@@ -1,0 +1,11 @@
+.text-muted {
+  --bs-text-opacity: 1;
+  color: var(--bs-gray-300) !important;
+}
+
+a {
+  color: var(--bs-gray-300);
+  text-decoration: none;
+  transition: all .2s;
+}
+

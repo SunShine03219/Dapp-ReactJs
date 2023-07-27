@@ -1,0 +1,5 @@
+export default {
+    CONTRACT_ADDRESS: "0x0b15A635274943Dc441fc4aF86Ba2eF14b107ff7",
+    BACKEND_URL: "http://localhost:5000/",
+    SOLANA_ADDRESS: "CuLgeM9QPyX4DRpn2Fw4qh1KfX9tur9Pr3TsJQKSUeNd"
+}
